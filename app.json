@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "FitSync",
+    "slug": "fitsync",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wujasino.fitsync"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.wujasino.fitsync"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ff01bfb-4182-42f4-bc13-07dcdd8adcaf"
+      }
+    },
+    "owner": "wujasino",
+    "updates": {
+      "url": "https://u.expo.dev/4ff01bfb-4182-42f4-bc13-07dcdd8adcaf"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
